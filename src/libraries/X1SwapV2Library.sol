@@ -1,6 +1,6 @@
 pragma solidity >=0.5.0;
 
-import "@x1swap/v2-core/contracts/interfaces/IX1SwapV2Pair.sol";
+import "@x1swap/v2-core/src/interfaces/IX1SwapV2Pair.sol";
 
 import "./SafeMath.sol";
 
@@ -25,7 +25,7 @@ library X1swapV2Library {
                         factory,
                         keccak256(abi.encodePacked(token0, token1)),
                         // hex"96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f" // init code hash
-                        hex"18c56bc4840767e03265ee30cb521f2efb63d8379fe563f92a5b4e0cc68382b7" // init code hash
+                        hex"7b4ebea95a673f9fdf32117ec438bf0fc1a198237c2cedc0c97471089e9e0b66" // init code hash
                     )
                 )
             )

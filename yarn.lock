@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@uniswap/lib@4.0.1-alpha":
-  version "4.0.1-alpha"
-  resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-4.0.1-alpha.tgz#2881008e55f075344675b3bca93f020b028fbd02"
-  integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
+"@x1swap/lib@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@x1swap/lib/-/lib-1.0.0.tgz#35feea5dab22e1f5de64152bbae9c5e546fdce83"
+  integrity sha512-e0TtnFr7v2YDeVAfsHTemA6yqpNppFkr4iTmX1Q+3zHsf8EVmnA3wH1jE4QG8v8C7AUJMXuirXZcrohzfAKhzw==
 
 "@x1swap/v2-core@1.0.0":
   version "1.0.0"

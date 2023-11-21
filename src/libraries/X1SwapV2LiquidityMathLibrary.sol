@@ -1,9 +1,9 @@
 pragma solidity >=0.5.0;
 
-import "@x1swap/v2-core/contracts/interfaces/IX1SwapV2Pair.sol";
-import "@x1swap/v2-core/contracts/interfaces/IX1SwapV2Factory.sol";
-import "@uniswap/lib/contracts/libraries/Babylonian.sol";
-import "@uniswap/lib/contracts/libraries/FullMath.sol";
+import "@x1swap/v2-core/src/interfaces/IX1SwapV2Pair.sol";
+import "@x1swap/v2-core/src/interfaces/IX1SwapV2Factory.sol";
+import "@x1swap/lib/src/Babylonian.sol";
+import "@x1swap/lib/src/FullMath.sol";
 
 import "./SafeMath.sol";
 import "./X1swapV2Library.sol";

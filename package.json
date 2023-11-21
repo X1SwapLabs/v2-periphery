@@ -25,7 +25,7 @@
     "node": ">=10"
   },
   "devDependencies": {
-    "@uniswap/lib": "4.0.1-alpha",
+    "@x1swap/lib": "1.0.0",
     "@x1swap/v2-core": "1.0.0"
   },
   "license": "GPL-3.0-or-later"

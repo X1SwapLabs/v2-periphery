@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import "../interfaces/IX1swapV2Router01.sol";
+import "../src/interfaces/IX1swapV2Router01.sol";
 
 contract RouterEventEmitter {
     event Amounts(uint256[] amounts);

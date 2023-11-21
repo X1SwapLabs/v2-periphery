@@ -1,7 +1,7 @@
 pragma solidity =0.6.6;
 
-import "@x1swap/v2-core/contracts/interfaces/IX1SwapV2Factory.sol";
-import "@uniswap/lib/contracts/libraries/TransferHelper.sol";
+import "@x1swap/v2-core/src/interfaces/IX1SwapV2Factory.sol";
+import "@x1swap/lib/src/TransferHelper.sol";
 
 import "./libraries/X1swapV2Library.sol";
 import "./interfaces/IX1swapV2Router01.sol";

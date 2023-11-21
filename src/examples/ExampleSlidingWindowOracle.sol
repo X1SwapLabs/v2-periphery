@@ -1,8 +1,8 @@
 pragma solidity =0.6.6;
 
-import "@x1swap/v2-core/contracts/interfaces/IX1SwapV2Factory.sol";
-import "@x1swap/v2-core/contracts/interfaces/IX1SwapV2Pair.sol";
-import "@uniswap/lib/contracts/libraries/FixedPoint.sol";
+import "@x1swap/v2-core/src/interfaces/IX1SwapV2Factory.sol";
+import "@x1swap/v2-core/src/interfaces/IX1SwapV2Pair.sol";
+import "@x1swap/lib/src/FixedPoint.sol";
 
 import "../libraries/SafeMath.sol";
 import "../libraries/X1swapV2Library.sol";
