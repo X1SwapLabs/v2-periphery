@@ -1,0 +1,32 @@
+{
+  "name": "@x1swap/v2-periphery",
+  "description": "🎛 Core contracts for the X1Swap V2 periphery contract",
+  "version": "1.0.0",
+  "homepage": "https://x1swap.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/X1SwapLabs/v2-periphery"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "x1swap",
+    "ethereum",
+    "v2",
+    "periphery",
+    "x1swap-v2"
+  ],
+  "files": [
+    "src",
+    "out"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "@uniswap/lib": "4.0.1-alpha",
+    "@x1swap/v2-core": "1.0.0"
+  },
+  "license": "GPL-3.0-or-later"
+}
